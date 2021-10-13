@@ -1,0 +1,106 @@
+
+*{
+  background-color: #161616;
+}
+
+h5{
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-family: "Lucida Console";
+    text-align: center;
+}
+
+.each-player{
+    display:inline-block;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    box-shadow: 0 4px 8px 2px rgba(255, 255, 255, 0.2), 0 6px 20px 2px rgba(255, 255, 255, 0.19);
+}
+.each-player:hover{
+    text-shadow: 2px 2px 4px white;
+    box-shadow:-10px 10px 5px grey;
+}
+
+.img{
+    height: 20rem;
+    width: 20rem;
+
+}
+.players{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.top{
+    text-align: center;
+    margin-top: 5rem; 
+    font-size: 2.5rem;
+    color: white;
+}
+
+.bottom{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    color: white; 
+}
+
+.each-staff{
+    display:inline-block;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    box-shadow: 0 4px 8px 2px rgba(255, 255, 255, 0.2), 0 6px 20px 2px rgba(255, 255, 255, 0.19); 
+}
+
+.each-staff:hover{
+    text-shadow: 2px 2px 4px white;
+    box-shadow:-10px 10px 5px grey; 
+}
+
+.coaching-staff{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    font-size: medium;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(255, 255, 255, 0.4);
+    margin-left: 8rem;
+    margin-right: 3rem;
+     
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    display: block;
+    color:white;
+    padding: 5px;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: grey;
+}
+
+.button{
+    color :black;
+    background-color: white;
+    margin-left: 8rem;
+    margin-right: 3rem;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+.text{
+    color: white;
+}
+
