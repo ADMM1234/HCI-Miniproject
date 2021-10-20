@@ -1,0 +1,176 @@
+*{
+    background-color: #161616;
+}
+.nav-bar{
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li{
+    float: left;
+    border-right: 1px solid #161616;
+    background-color: black;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+li a{
+    display: block;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    background-color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: royalblue;
+}
+.last{
+     float: right;
+}
+
+.info{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contact{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.telephone{
+    display:inline-block;
+    box-shadow: 0 4px 8px 2px rgba(255, 255, 255, 0.2);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-right: 3rem;
+    background-color:lightgray;
+}
+
+.post{
+    display:inline-block;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 3rem;
+    box-shadow: 0 4px 8px 2px rgba(196, 195, 195, 0.2);
+    background-color:lightgray;
+ }
+
+h3{
+    background-color:lightgray;
+    color: black;
+    font-size: 1.75rem;
+    font-family: "Lucida Console";
+    text-align: center; 
+    border-bottom: 3px solid #161616;;
+}
+
+h5{
+    background-color:lightgray;
+    color: grey;
+    font-size: 1.25rem;
+    font-family: "Lucida Console";
+    text-align: center;
+}
+
+.email{
+    background-color: lightgray;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.form-table{
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.table{
+    background-color: lightgray;
+    color: black;
+}
+
+
+input[type = text], option, select, textarea{
+    width : 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color : black;
+    color : white;
+    font-size: 1rem;
+}
+
+::placeholder{
+    color: white;
+}
+
+textarea{
+    height: 200px;
+}
+
+label{
+    margin-bottom: 10px;
+    background-color : lightgray;
+    color : black;
+    font-size: 1.5rem;
+}
+
+input[type = submit]{
+    background-color : black;
+    color : white;
+    padding : 12px 20px;
+    border : none;
+    border-radius : 4px;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+h5{
+    color: black;
+    font-size: 1.25rem;
+    font-family: "Lucida Console";
+    text-align: center;
+}
+
+.img_2{
+    display:inline-block;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 8rem;
+    width: 8rem;
+}
+
+.sponsers{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.sponser{
+    background-color:  #161616;
+    color: white;
+}
