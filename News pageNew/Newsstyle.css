@@ -1,0 +1,161 @@
+@import "utilities.css";
+
+:root{
+  --primary:#3DCFD3;
+  --dark:#161616;
+  --pure:#FFFFFF;
+  --ternary:#898989;
+  --light:#F2F2F2;
+  --secondary:#070606;
+}
+img{
+  width: 100px;
+  height: 100px;
+
+}
+header{
+  background: var(--dark);
+  /* clip-path:polygon(0 0,100% 0,100% 100%,70% 87%, 0 100%); */
+}
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  -webkit-font-smotthing:antialised;
+
+}
+.container1{
+   max-width: 1152px;
+  padding:0 15px
+  margin:0 auto;
+}
+header nav .left a{
+  color:var(--pure);
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+}
+header nav .left a:hover{
+  color: var(--primary);
+}
+body{
+  font-family: 'poopins',sans-serif;
+}
+header nav{
+  padding: 2rem 0;
+}
+header nav .branding{
+  margin-right: 20rem;
+}
+.hero{
+  padding: 3rem 0;
+}
+.image2{
+  width: 500px;
+  height: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+section{
+  padding: 6rem 0;
+}
+
+.image3{
+  width: 300px;
+  height: 300px;
+  margin-left: 36px;
+  margin-right: 36px;
+
+}
+.TextBig{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.Para{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+p{
+  text-align: center;
+}
+.TextSmall{
+  text-align: center;
+  color: black;
+  font-size: 15px;
+}
+.image4{
+  width: 200px;
+  height: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.Sponsers{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: var(--primary);
+}
+img:hover{
+    text-shadow: 2px 2px 4px white;
+    box-shadow:-10px 10px 5px grey;
+}
+.nav-bar{
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li{
+    float: left;
+    border-right: 1px solid #161616;
+    background-color: black;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+li a{
+    display: block;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    background-color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.active{
+    background-color: royalblue;
+}
+.last{
+     float: right;
+}
+.sponsers{
+    text-align: center;
+}
+.img_2{
+    display:inline-block;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 8rem;
+    width: 8rem;
+}
+h5{
+    color: black;
+    font-size: 1.25rem;
+    font-family: "Lucida Console";
+    text-align: center;
+}
