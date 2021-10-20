@@ -1,0 +1,133 @@
+*{
+  background-color: black;
+}
+
+
+.content-info {
+    background: black;
+    padding: 40px 0;
+    background-size: cover !important;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    padding-bottom: 100px
+}
+
+table {
+    width: 100%;
+    background: white;
+    border: 1px solid white;
+}
+
+table thead tr th {
+    padding: 20px;
+    border: 1px solid black;
+    color: white;
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+    background: gray;
+}
+
+table.result-point tr td.number {
+    width: 100px;
+    position: relative
+}
+
+.text-left {
+    text-align: left !important
+}
+
+table tr td {
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+table.result-point tr td .fa.fa-caret-up {
+    color: green
+}
+
+table.result-point tr td .fa {
+    font-size: 20px;
+    position: absolute;
+    right: 20px
+}
+
+table tr td {
+    padding: 10px 40px;
+    border: 1px solid white;
+}
+
+table tr td img {
+    max-width: 32px;
+    float: left;
+    margin-right: 11px;
+    margin-top: 1px;
+    border: 1px solid black;
+}
+tr{
+  color: white;
+}
+.nav-bar{
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    background-color:black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li{
+    float: left;
+    border-right: 1px solid #161616;
+    background-color: black;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+li a{
+    display: block;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    background-color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.active{
+    background-color: royalblue;
+}
+.last{
+     float: right;
+}
+.sponsers{
+    text-align: center;
+}
+.img_2{
+    display:inline-block;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 8rem;
+    width: 8rem;
+}
+h5{
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-family: "Lucida Console";
+    text-align: center;
+}
+.title{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
