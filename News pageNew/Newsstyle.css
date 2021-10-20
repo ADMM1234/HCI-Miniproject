@@ -98,3 +98,7 @@ p{
   margin-bottom: 20px;
   color: var(--primary);
 }
+img:hover{
+    text-shadow: 2px 2px 4px white;
+    box-shadow:-10px 10px 5px grey;
+}
